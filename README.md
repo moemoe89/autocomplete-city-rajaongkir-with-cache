@@ -1,5 +1,5 @@
 # autocomplete-city-rajaongkir-with-cache
-Autocomplete City RajaOngkir with Cache
+Autocomplete City RajaOngkir with Cache for starter member
 
 #Config
 > change $key on execute.php with your own. if you don't have the key,you can register at ([http://rajaongkir.com/akun/daftar](http://rajaongkir.com/akun/daftar))
