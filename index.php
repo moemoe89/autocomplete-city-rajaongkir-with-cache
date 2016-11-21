@@ -64,7 +64,7 @@
         type: "POST",
         url: "execute.php?cost=true",
         dataType: "json",
-        data: {origin: $("#origin_id").val(),destination: $("#destination_id").val(),weight: $("#weight").val()},
+        data: {origin: $("#origin_id").val(),destination: $("#destination_id").val(),weight: $("#weight").val(),courier: $("#courier").val()},
         cache : false,
         success: function(data) {
           $("#load").hide();
@@ -120,6 +120,16 @@
       <td>Weight (gram)</td>
       <td>:</td>
       <td><input id="weight" class="autocomplete"></td>
+    </tr>
+    <tr>
+      <td>Courier</td>
+      <td>:</td>
+      <td><select id="courier" class="autocomplete">
+              <option value="jne">JNE</option>
+              <option value="tiki">TIKI</option>
+              <option value="pos">POS</option>
+          </select>
+      </td>
     </tr>
     <tr>
       <td></td>
